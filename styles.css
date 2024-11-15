@@ -31,9 +31,101 @@
   --clr-light-gray: #bbc5d0;
 
   --brd-sdw-green: rgba(92, 148, 60, 0.9);
-  --ico-sz: 40px;
+
+  /* NOA */
+  --clr-bg-app-light-grey: rgb(237, 237, 237);
+
+  /* --ico-sz: 40px; */
 }
 
+/* NOA */
+body {
+  /* width: 1440px; */
+  margin: 0;
+  padding: 0;
+}
+
+.bgAweAppFea {
+  background-color: #c4c4c4;
+}
+
+.container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  margin: 1rem;
+  background-color: #c7c7c7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #eceefa;
+  padding: 5rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  /* padding-inline-start: 0; Aus Chromedevtools -> sonst margin-left:40px */
+}
+
+footer ul li {
+  margin: 20px;
+  font-size: 20px;
+}
+
+footer h1 {
+  text-align: center;
+}
+
+.container figure {
+  padding: 0;
+  width: 114px;
+}
+
+.container figure img {
+  margin-top: 3rem;
+  border-radius: 50%;
+  display: block;
+  width: 100%;
+}
+
+.block-center {
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin-left: -45px;
+  margin-top: 3rem;
+}
+
+.centeringh1 {
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.centeringh4 {
+  font-weight: normal;
+  margin-top: -1rem;
+  text-align: center;
+}
 .navbar-container {
   display: flex;
   justify-content: space-between;
